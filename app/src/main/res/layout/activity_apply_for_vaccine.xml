@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ApplyForVaccine">
+
+<!--    border-->
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/linearLayoutCompat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:background="@drawable/layout_border"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10sp"
+                android:text="Application"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp">
+
+            <TableRow>
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name : "
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/user_name_certi"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Null"
+                    android:textSize="16sp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/nid_text_certi"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NID Number : "
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/user_nid_certi"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Null"
+                    android:textSize="16sp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/contact_text_certi"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact : "
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/user_contact_certi"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Null"
+                    android:textSize="16sp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/occupation_text_certi"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Occupation : "
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/user_occupation_certi"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Null"
+                    android:textSize="16sp"/>
+
+            </TableRow>
+
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginHorizontal="10dp">
+
+            <TableRow
+                android:background="#E5E8E8"
+                android:paddingVertical="10sp">
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vaccination Dose"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Status"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:textAlignment="center"/>
+            </TableRow>
+
+            <TableRow android:layout_marginTop="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="COVID Dose-1"
+                    android:textColor="@color/black"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/dose_1_status"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:text="Unknown" />
+            </TableRow>
+
+            <TableRow android:layout_marginTop="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="COVID Dose-2"
+                    android:textColor="@color/black"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/dose_2_status"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:text="Unknown" />
+            </TableRow>
+
+        </TableLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintVertical_bias="0.9">
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="Select Booster Dose : "
+            android:layout_marginLeft="20dp"
+            android:paddingBottom="5dp"/>
+
+        <Spinner
+            android:id="@+id/vaccine_avail_spinner"
+            android:layout_width="230dp"
+            android:layout_height="60dp"
+            android:background="#0eb5ff"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="Select Vaccination Center : "
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:paddingBottom="5dp"/>
+
+        <Spinner
+            android:id="@+id/location_name_spinner"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:background="#0eb5ff"
+            android:layout_marginLeft="20dp"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/apply_btn"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="Apply"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:layout_marginTop="35dp"
+            android:layout_gravity="center"
+            android:background="@drawable/apply_button_bkgd"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/apply_btn"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:text="Apply"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.521"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.904" />-->
+
+<!--    <Spinner-->
+<!--        android:id="@+id/vaccine_avail_spinner"-->
+<!--        android:layout_width="230dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.243"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.669"/>-->
+
+<!--    <Spinner-->
+<!--        android:id="@+id/location_name_spinner"-->
+<!--        android:layout_width="320dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.494"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.782" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

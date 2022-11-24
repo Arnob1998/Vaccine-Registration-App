@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "144366051692",
+    "firebase_url": "https://aoop-mid-ass-default-rtdb.firebaseio.com",
+    "project_id": "aoop-mid-ass",
+    "storage_bucket": "aoop-mid-ass.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144366051692:android:8b43339a1a1cee6bb55349",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144366051692-g7f22j14vpvm8j70jd90pn0h42tg08k5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEXqV68wt6crixBoMqs8jzVLfRP7TBIQI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "144366051692-g7f22j14vpvm8j70jd90pn0h42tg08k5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string-array name="available_vaccine">
+        <item>AstraZeneca</item>
+        <item>Sinovac</item>
+        <item>Pfizer-BioNTech</item>
+        <item>Sputnik</item>
+    </string-array>
+
+    <string-array name="available_location">
+        <item>Shahid Suhrawardy Hospital</item>
+        <item>Ad-Din Hospital</item>
+        <item>Ahmed Medical Centre Ltd</item>
+        <item>Aichi Hospital</item>
+        <item>Al Anaiet Adhunik Hospital</item>
+        <item>Al- Helal Speacialist Hospital</item>
+        <item>Al Jebel-E-Nur Heart Ltd</item>
+        <item>Al- Rajhi Hospital</item>
+        <item>Al-Ahsraf General Hospital</item>
+        <item>Al-Biruni Hospital</item>
+        <item>Al-Fateh Medical Sevices (Pvt) Ltd</item>
+        <item>Al-Madina General Hospital (Pvt.) Ltd</item>
+        <item>Al-Manar Hospital</item>
+        <item>Al-Markazul Islami Hospital</item>
+        <item>Al-Mohite General Hospital and Diagnostic Centre</item>
+        <item>Amri Hospitals</item>
+        <item>Kemal Ataturk Avenue</item>
+        <item>Anjuman-E-Mofidul Islam</item>
+        <item>Appolo Hospital</item>
+        <item>Arimo General Hospital</item>
+        <item>Arogya Niketan Hospital Ltd</item>
+        <item>Aysha Memorial Specialized Hospital</item>
+        <item>B.D.F. Hospital</item>
+        <item>Bangabandhu Shiekh Mujib Medical University</item>
+        <item>Bangal Nursing Home Ltd</item>
+        <item>Bangkok Hospital</item>
+        <item>Bangladesh Association For The Aged and Institute Of Gerecitric Medicine</item>
+        <item>Bangladesh Heart and Chest Hospital</item>
+        <item>Bangladesh Medical College</item>
+        <item>Bangladesh Telemedicine Services Ltd</item>
+        <item>Bari-Llizarov Orthopedic</item>
+        <item>Bari-Llizarov Orthopedic</item>
+        <item>Bdm Hospital</item>
+        <item>Bengal Nursing Home (Pvt.) Ltd</item>
+        <item>Birdem</item>
+        <item>Bnsb Dhaka</item>
+        <item>Brain and Maind Hospital Ltd</item>
+        <item>Brighton Hospital Ltd</item>
+        <item>Brighton Hospital Ltd</item>
+        <item>Bumrungrad Hospital</item>
+        <item>Cancer Home Cancer and Breast Clinic</item>
+        <item>Care Madical Center Ltd</item>
+        <item>Central Hospital Ltd</item>
+        <item>Centre For Health And Development Medical Complex</item>
+        <item>Centre For The Rehabilitation Of The Paralysed (Crp)</item>
+        <item>Chandshi Medical Centre</item>
+        <item>China-Bangla Hospital (Jv) Ltd</item>
+        <item>Cholera Hospital (Icddrb)</item>
+        <item>Christian Medical Hospital</item>
+        <item>City Hospital (Pvt) Ltd</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
+
